@@ -1,0 +1,8 @@
+<div class="row">
+<p class="col-sm-3"> <strong>Your Question</strong></p>
+<p class="col-sm-9"><%= @user_question %></p>
+
+<p class="col-sm-3"> <strong>Coach answer</strong></p>
+<p class="col-sm-9"><%= @answer %></p>
+</div>
+<%= link_to 'Ask a new question', ask_path, :class => "btn btn-primary"%>
